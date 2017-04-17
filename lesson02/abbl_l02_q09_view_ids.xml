@@ -25,6 +25,8 @@
         android:id="@+id/natalie_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/lyla_text_view"
         android:textSize="24sp"
         android:text="Natalie" />
 
@@ -50,8 +52,9 @@
         android:id="@+id/amy_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@id/jennie_text_view"
+        android:layout_above="@id/omoju_text_view"
         android:textSize="24sp"
         android:text="Amy" />
 
@@ -77,8 +80,8 @@
         android:id="@+id/kagure_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ben_text_view"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
         android:textSize="24sp"
         android:text="Kagure" />
 
