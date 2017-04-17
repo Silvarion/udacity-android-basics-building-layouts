@@ -6,13 +6,14 @@
 
     <ImageView
         android:src="@drawable/ocean"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:scaleType="centerCrop" />
 
     <TextView
         android:text="You're invited!"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
         android:textSize="54sp"
@@ -20,7 +21,7 @@
 
     <TextView
         android:text="Bonfire at the beach"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
         android:textSize="34sp"
