@@ -9,7 +9,7 @@
         android:text="VIP List"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#4CAF50"
+        android:background="#42A5F5"
         android:textSize="24sp" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:text="Kagure"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#4CAF50"
+        android:background="#26A69A"
         android:textSize="24sp" />
 
     <TextView
