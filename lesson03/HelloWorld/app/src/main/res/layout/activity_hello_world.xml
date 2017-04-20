@@ -8,14 +8,22 @@
     tools:context="org.silvarion.android.helloworld.HelloWorldActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday, Sarah!" />
+        android:text="Happy Birthday, Sarah!"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From Daddy" />
+        android:text="From Daddy"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"/>
 
     <ImageView
         android:layout_width="match_parent"
