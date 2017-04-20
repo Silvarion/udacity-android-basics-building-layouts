@@ -7,6 +7,12 @@
 
     tools:context="org.silvarion.android.helloworld.HelloWorldActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,10 +32,5 @@
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/androidparty" />
 
 </RelativeLayout>
