@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="org.silvarion.android.helloworld.HelloWorldActivity">
+    tools:context="org.silvarion.android.birthday.HelloWorldActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -35,4 +35,11 @@
         android:textColor="@android:color/white"
         android:padding="20dp"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="callAnotherBirthday"/>
 </RelativeLayout>
